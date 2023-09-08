@@ -1,6 +1,6 @@
 # **Task 1**
 ## **Subtask 1**
-Brak możliwości wykonania egzaminu. 
+8/10 pkt. 
 ## **Subtask 3**
 Cześć! Z tej strony Ewa. 
 
