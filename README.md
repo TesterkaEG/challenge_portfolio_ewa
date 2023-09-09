@@ -1,6 +1,6 @@
 # **Task 1**
 ## **Subtask 1**
-%(#F​​F000​0) 8/10 pkt. 
+<%(#F​​F000​0) [czerwony] 8/10 pkt. </>
 ## **Subtask 3**
 Cześć! Z tej strony Ewa. 
 
