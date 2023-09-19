@@ -1,6 +1,8 @@
 # **Task 1**
 ## **Subtask 1**
 8/10 pkt.
+## **Subtask 2**
+Tworzenie repozytorium - GitHub. 
 ## **Subtask 3**
 Cześć! Z tej strony Ewa. 
 
@@ -9,3 +11,5 @@ Biorę udział w projekcie, ponieważ podjęłam decyzję o zmianie branży. Jes
 Projekt znajduje się na dysku Google. Link do folderu: https://tiny.pl/cd88q 
 ## **Subtask 5**
 Jira
+
+# **Task 2**
