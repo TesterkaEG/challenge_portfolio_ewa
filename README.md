@@ -1,4 +1,4 @@
-# <br>**Task 1**
+# <br>**[Task-1](https://tiny.pl/cf869)**
 
 ## *Subtask 1*
 Wynik z testu: 8/10 pkt.
@@ -12,7 +12,6 @@ Dlaczego biorę udział w projekcie?
 Biorę udział w projekcie, ponieważ podjęłam decyzję o zmianie branży. Jestem pewna, że tym sposobem zwiększę swoje szanse na rynku pracy. Poza tym lubię wyzwania. Każde z nich traktuję jako szansę na zdobywanie nowych kompetencji oraz możliwości rozwoju. 
 ## *Subtask 4*
 Projekt znajduje się na dysku Google. 
-Link do folderu: [Task-1](https://tiny.pl/cf869)
 ## *Subtask 5*
 Jira
 
