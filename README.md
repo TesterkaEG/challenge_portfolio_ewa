@@ -6,8 +6,6 @@ Wynik z testu: 8/10 pkt. 💪
 ## *Subtask 2*
 Tworzenie repozytorium. 
 ## *Subtask 3*
-Dlaczego biorę udział w projekcie?
-
 🖐 Cześć! Z tej strony Ewa. 
 
 Biorę udział w projekcie, ponieważ podjęłam decyzję o zmianie branży. Jestem pewna, że tym sposobem zwiększę swoje szanse na rynku pracy. Poza tym lubię wyzwania. Każde z nich traktuję jako szansę na zdobywanie nowych kompetencji oraz możliwości rozwoju. 
