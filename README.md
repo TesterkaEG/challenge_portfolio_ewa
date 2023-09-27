@@ -35,9 +35,3 @@ Testowanie według planów testów i raportowanie błędów.
 Raport z wykonanych testów.
 ## *Subtask 4*
 Sesja testów eksploracyjnych.
-
-
-
-
-[Cześć!](https://giphy.com/gifs/computer-oops-computers-D37FZBP7bdeQsNuamE)
-
