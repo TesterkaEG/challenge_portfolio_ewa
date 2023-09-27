@@ -15,7 +15,7 @@ Jira
 
 
 # <br> **[Task 2](https://tiny.pl/cf8bg)** 
-Wszystkie zadania są dostępne dysku Google. 
+Wszystkie zadania są dostępne na dysku Google. 
 ## *Subtask 1*
 Pisanie przypadków testowych na podstawie User Story.
 ## *Subtask 2*
