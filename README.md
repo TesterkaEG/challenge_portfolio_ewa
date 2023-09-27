@@ -1,11 +1,11 @@
-# <br>**[Task 1](https://tiny.pl/cf869)** 🕵🏼‍♀️
+# <br>**[Task 1](https://tiny.pl/cf869)** 
 
 ## *Subtask 1*
 Wynik z testu: 8/10 pkt. 💪
 ## *Subtask 2*
 Tworzenie repozytorium. 
 ## *Subtask 3*
-🖐 Cześć! Z tej strony Ewa. 
+🖐 Cześć! Z tej strony Ewa. 🕵🏼‍♀️ 
 
 Biorę udział w projekcie, ponieważ podjęłam decyzję o zmianie branży. Jestem pewna, że tym sposobem zwiększę swoje szanse na rynku pracy. Poza tym lubię wyzwania. Każde z nich traktuję jako szansę na zdobywanie nowych kompetencji oraz możliwości rozwoju. 
 ## *Subtask 4*
