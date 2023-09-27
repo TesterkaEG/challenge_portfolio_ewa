@@ -28,8 +28,7 @@ Pisanie przypadków testowych na podstawie "własnych doświadczeń".
 Pisanie przypadków testowych na podstawie "własnych doświadczeń". Testy aplikacji Pick Eat Up https://pickeatup.io/
 
 
-# <br> **Task 3**
-Link do folderu: [Task-3](https://tiny.pl/c5pzb)
+# <br> **[Task-3](https://tiny.pl/c5pzb)** 
 ## **Subtask 1**
 Utworzenie formatki do zgłaszania błędów systemu.
 ## **Subtask 2**
