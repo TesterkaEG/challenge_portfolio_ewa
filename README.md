@@ -19,7 +19,7 @@ Jira
 
 # <br> **Task 2** 
 Wszystkie zadania znajdują się na dysku Google. 
-Link do folderu: [Task 2](https://tiny.pl/cf8bg)
+Link do folderu: [Task-2](https://tiny.pl/cf8bg)
 ## **Subtask 1**
 Pisanie przypadków testowych na podstawie User Story.
 ## **Subtask 2**
