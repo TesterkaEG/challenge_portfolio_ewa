@@ -1,7 +1,7 @@
 # <br>**[Task 1](https://tiny.pl/cf869)**
 
 ## *Subtask 1*
-Wynik z testu: 8/10 pkt. 💪
+    *Wynik z testu: 8/10 pkt. 💪
 ## *Subtask 2*
 Tworzenie repozytorium. 
 ## *Subtask 3*
