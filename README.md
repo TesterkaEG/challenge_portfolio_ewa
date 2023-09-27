@@ -32,6 +32,6 @@ Utworzenie formatki do zgłaszania błędów systemu.
 ## *Subtask 2*
 Testowanie według planów testów i raportowanie błędów.
 ## *Subtask 3*
-Raport z wykonanych testów.
+Raport z wykonanych testów. 📋
 ## *Subtask 4*
 Sesja testów eksploracyjnych.
