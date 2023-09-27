@@ -10,7 +10,6 @@ Biorę udział w projekcie, ponieważ podjęłam decyzję o zmianie branży. Jes
 ## **Subtask 4**
 Projekt znajduje się na dysku Google. 
 Link do folderu "Task 1": https://tiny.pl/cf869
-
 ## **Subtask 5**
 Jira
 
@@ -24,4 +23,9 @@ Pisanie przypadków testowych na podstawie "własnych doświadczeń".
 ## **Subtask 3**
 "Po co piszemy test case'y?" 
 ## **Subtask 4**
-Pisanie przypadków testowych na podstawie "własnych doświadczeń". Testy aplikacji Pick Eat Up https://pickeatup.io/ 
+Pisanie przypadków testowych na podstawie "własnych doświadczeń". Testy aplikacji Pick Eat Up https://pickeatup.io/
+
+# **Task 3**
+## **Subtask 1**
+Utworzenie formatki do zgłaszania błędów systemu.
+## **Subtask 2**
