@@ -37,7 +37,7 @@ Raport z wykonanych testów. 📋
 Sesja testów eksploracyjnych.
 
 
-# <br> **[Task 4](https://tiny.pl/c1dh9)
+# <br> **[Task 4](https://tiny.pl/c1dh9)**
 ## *Subtask 1*
 Utworzenie formatki do zgłaszania błędów systemu (dodatkowe kolumny).
 ## *Subtask 2*
