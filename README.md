@@ -35,3 +35,14 @@ Testowanie według planów testów i raportowanie błędów.
 Raport z wykonanych testów. 📋
 ## *Subtask 4*
 Sesja testów eksploracyjnych.
+
+
+# <br> **[Task 4](https://tiny.pl/c1dh9)
+## *Subtask 1*
+Utworzenie formatki do zgłaszania błędów systemu (dodatkowe kolumny).
+## *Subtask 2*
+Testowanie eksploracyjne i raportowanie błędów. 
+## *Subtask 3*
+Do czego służy ta aplikacja? OLX - ogłoszenia lokalne
+## *Subtask 4*
+Testy aplikacji mobilnej i webowej.
