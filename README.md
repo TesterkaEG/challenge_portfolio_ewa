@@ -88,7 +88,6 @@ SELECT title, price FROM `movies` WHERE price<7;
 SELECT * FROM `actors` 
 WHERE actor_id>= 4 AND actor_id<= 7;
 
-
 ![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/01ec225e-7954-4705-85df-14a6378e1d95)
 
 6.Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
@@ -98,5 +97,23 @@ WHERE customer_id=2 OR customer_id=4 OR customer_id=6;
 
 ![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/f887d7f0-1521-4402-87ce-5bb914653b8d)
 
-
 7.Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+SELECT * FROM `customers` 
+WHERE customer_id IN (1,3,5);
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/24567219-2134-4344-bfee-57719f4f6fdf)
+
+8.Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+SELECT * FROM `actors` 
+WHERE name LIKE 'AN%';
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/27f57397-7a58-4efe-a2ab-52f36c1a3125)
+
+9.Wyświetl dane klienta, który nie ma podanego adresu email.
+
+SELECT * FROM `customers` 
+WHERE email IS NULL;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/ab82d393-4053-48ea-8492-51eaf7e87099)
