@@ -117,3 +117,10 @@ SELECT * FROM `customers`
 WHERE email IS NULL;
 
 ![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/ab82d393-4053-48ea-8492-51eaf7e87099)
+
+10.Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+SELECT * FROM `movies`
+WHERE price>9 AND movie_id BETWEEN 2 AND 8;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/7dd8383e-7572-4169-9209-3d983837664c)
