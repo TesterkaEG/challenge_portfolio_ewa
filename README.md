@@ -49,3 +49,38 @@ Testy aplikacji mobilnej i webowej.
 
 [Jira](https://tiny.pl/c1f8n)
 
+
+# <br> Task 5
+## *Subtask 1*
+Krótki kurs podstaw SQL.
+## *Subtask 2*
+Konfiguracja środowiska i wgranie bazy danych.
+## *Subtask 3*
+Zadania.
+
+1.Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+SELECT * FROM `actors` ORDER BY surname;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/13e3e3a6-6736-4473-a102-69514fbb2c12)
+
+2.Wyświetl film, który powstał w 2019 roku.
+
+SELECT * FROM `movies` WHERE `year_of_production`= 2019;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/ec1cf74b-5676-4100-a4f1-a7e99a73d12b)
+
+3.Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+SELECT * FROM `movies` 
+WHERE `year_of_production` BETWEEN 1900 AND 1999;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/c48a0efd-881f-4d13-aa27-a7f790d54838)
+
+4.Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+
+SELECT title, price FROM `movies` WHERE price<7;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/4f6b1c9f-34d9-4467-851b-bd6e35fdfa63)
+
+
