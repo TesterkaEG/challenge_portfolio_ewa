@@ -11,7 +11,7 @@ Biorę udział w projekcie, ponieważ podjęłam decyzję o zmianie branży. Jes
 ## *Subtask 4*
 Projekt znajduje się na dysku Google. 
 ## *Subtask 5*
-Jira
+Tworzenie konta - Jira.
 
 
 # <br> **[Task 2](https://tiny.pl/cf8bg)** 
@@ -46,3 +46,5 @@ Testowanie eksploracyjne i raportowanie błędów.
 Do czego służy ta aplikacja? OLX - ogłoszenia lokalne
 ## *Subtask 4*
 Testy aplikacji mobilnej i webowej.
+[Jira](https://tiny.pl/c1f8n)
+
