@@ -83,4 +83,20 @@ SELECT title, price FROM `movies` WHERE price<7;
 
 ![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/4f6b1c9f-34d9-4467-851b-bd6e35fdfa63)
 
+5.Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 
+SELECT * FROM `actors` 
+WHERE actor_id>= 4 AND actor_id<= 7;
+
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/01ec225e-7954-4705-85df-14a6378e1d95)
+
+6.Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+SELECT * FROM `customers` 
+WHERE customer_id=2 OR customer_id=4 OR customer_id=6;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/f887d7f0-1521-4402-87ce-5bb914653b8d)
+
+
+7.Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
