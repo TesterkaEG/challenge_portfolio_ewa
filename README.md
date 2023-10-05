@@ -46,5 +46,6 @@ Testowanie eksploracyjne i raportowanie błędów.
 Do czego służy ta aplikacja? OLX - ogłoszenia lokalne
 ## *Subtask 4*
 Testy aplikacji mobilnej i webowej.
+
 [Jira](https://tiny.pl/c1f8n)
 
