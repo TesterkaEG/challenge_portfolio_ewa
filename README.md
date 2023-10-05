@@ -43,16 +43,16 @@ Utworzenie formatki do zgłaszania błędów systemu (dodatkowe kolumny).
 ## *Subtask 2*
 Testowanie eksploracyjne i raportowanie błędów. 
 ## *Subtask 3*
-Do czego służy ta aplikacja? OLX - ogłoszenia lokalne
+Do czego służy ta aplikacja? OLX - ogłoszenia lokalne 🔍
 ## *Subtask 4*
-Testy aplikacji mobilnej i webowej.
+Testy aplikacji mobilnej i webowej. 📱 💻 
 
 [Jira](https://tiny.pl/c1f8n)
 
 
 # <br> Task 5
 ## *Subtask 1*
-Krótki kurs podstaw SQL.
+Krótki kurs podstaw SQL.📝🗒
 ## *Subtask 2*
 Konfiguracja środowiska i wgranie bazy danych.
 ## *Subtask 3*
