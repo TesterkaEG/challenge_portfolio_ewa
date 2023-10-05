@@ -70,8 +70,6 @@ SELECT * FROM `movies` WHERE `year_of_production`= 2019;
 
 ![zad 2 b](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/3f3806e2-92a7-4396-84aa-bcb2d04a8fa7)
 
-
-
 3.Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 
 SELECT * FROM `movies` 
