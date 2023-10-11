@@ -51,8 +51,9 @@ Testy aplikacji mobilnej i webowej. 📱 💻
 
 
 # <br> Task 5
-## *Subtask 1*
+## *[Subtask 1](https://tiny.pl/cjtj4)*
 Krótki kurs podstaw SQL.📝🗒
+
 ## *Subtask 2*
 Konfiguracja środowiska i wgranie bazy danych.
 ## *Subtask 3*
