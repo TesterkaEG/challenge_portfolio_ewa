@@ -165,3 +165,37 @@ INNER JOIN movies ON sale.movie_id=movies.movie_id;
 
 15.W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
+Krok 1️⃣:
+
+ALTER TABLE customerS
+ADD COLUMN pseudonym VARCHAR(3);
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/b82745dc-0abb-49d9-b92f-ee935f18a2fe)
+
+
+Krok 2️⃣:
+
+UPDATE customers
+SET pseudonym=CONCAT(LEFT(name,2),RIGHT(surname,1));
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/24059b63-d319-43b0-bf0f-490bcfa47541)
+
+16.Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+SELECT DISTINCT movies.title
+FROM movies
+INNER JOIN sale ON movies.movie_id=sale.movie_id;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/7bb264bd-6bbe-4f75-93e3-f733f1f0a7c9)
+
+17.Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION).
+
+SELECT name FROM actors
+UNION
+SELECT name FROM customers
+ORDER BY name;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/2fc312af-e2c2-4336-8bd6-b096d93883db)
+
+18.Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+
