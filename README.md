@@ -125,3 +125,16 @@ SELECT * FROM `movies`
 WHERE price>9 AND movie_id BETWEEN 2 AND 8;
 
 ![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/7dd8383e-7572-4169-9209-3d983837664c)
+
+# <br> Task 6
+## *Subtask 1*
+Zadania.
+
+11.Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+
+UPDATE customers
+SET surname='Miler'
+WHERE customer_id=3;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/a47f819e-a87a-4c66-aef4-33629768087f)
+
