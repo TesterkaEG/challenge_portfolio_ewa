@@ -199,3 +199,25 @@ ORDER BY name;
 
 18.Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
 
+UPDATE movies
+SET price = price +2.5
+WHERE year_of_production > 2000;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/5ebaa6c2-adc2-4fba-baa4-bdb0496e2967)
+
+19.Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
+
+SELECT a.name, a.surname, m.title
+FROM actors a
+JOIN cast c ON a.actor_id = c.actor_id
+JOIN movies m ON c.movie_id = m.movie_id
+WHERE a.actor_id = 4;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/486b563b-5fe3-4b6c-9e76-1bf2678b5665)
+
+20.A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.
+
+INSERT INTO customers (customer_id, name, surname, email, pseudonym)
+VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/5036358e-ecae-48be-aa3c-415fe53ebc17)
