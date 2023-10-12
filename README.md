@@ -156,3 +156,12 @@ SELECT customer_id, name, surname, NVL(email,'pati@mail.com') AS email FROM `cus
 
 14.Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
 
+SELECT customers.name, customers.surname, movies.title
+FROM customers
+INNER JOIN sale ON customers.customer_id=sale.customer_id
+INNER JOIN movies ON sale.movie_id=movies.movie_id;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/dbf54378-62cb-4a73-884e-da1e02631ef5)
+
+15.W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
