@@ -221,3 +221,8 @@ INSERT INTO customers (customer_id, name, surname, email, pseudonym)
 VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
 
 ![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/5036358e-ecae-48be-aa3c-415fe53ebc17)
+
+## *Subtask 2*
+Test.
+
+Wynik z testu: 
