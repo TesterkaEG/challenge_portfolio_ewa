@@ -225,7 +225,7 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
 ## *Subtask 2*
 Test.
 
-Wynik z testu: 
+Wynik z testu:
 
 ## *Subtask 3*
 Tworzymy portfolio. 🏆
