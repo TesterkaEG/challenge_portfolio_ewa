@@ -140,7 +140,12 @@ WHERE customer_id=3;
 
 12.Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
-??
+SELECT c.name, c.email FROM customers c
+JOIN movies zf ON c.customer_id= zf.movie_id
+WHERE zf.movie_id =4;
+
+![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/6af8abd9-6627-4142-b100-4f35efbdeba3)
+
 
 13.Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
@@ -148,3 +153,6 @@ SELECT customer_id, name, surname, NVL(email,'pati@mail.com') AS email FROM `cus
 
 
 ![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/afaaef70-4952-419f-9647-0252196358d6)
+
+14.Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+
