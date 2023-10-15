@@ -128,104 +128,12 @@ WHERE price>9 AND movie_id BETWEEN 2 AND 8;
 
 # <br> Task 6
 ## *Subtask 1*
-Zadania.
-
-11.Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
-
-UPDATE customers
-SET surname='Miler'
-WHERE customer_id=3;
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/a47f819e-a87a-4c66-aef4-33629768087f)
-
-12.Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
-
-SELECT c.name, c.email FROM customers c
-JOIN movies zf ON c.customer_id= zf.movie_id
-WHERE zf.movie_id =4;
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/6af8abd9-6627-4142-b100-4f35efbdeba3)
-
-
-13.Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
-
-SELECT customer_id, name, surname, NVL(email,'pati@mail.com') AS email FROM `customers`;
-
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/afaaef70-4952-419f-9647-0252196358d6)
-
-14.Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
-
-SELECT customers.name, customers.surname, movies.title
-FROM customers
-INNER JOIN sale ON customers.customer_id=sale.customer_id
-INNER JOIN movies ON sale.movie_id=movies.movie_id;
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/dbf54378-62cb-4a73-884e-da1e02631ef5)
-
-15.W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
-
-Krok 1️⃣:
-
-ALTER TABLE customerS
-ADD COLUMN pseudonym VARCHAR(3);
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/b82745dc-0abb-49d9-b92f-ee935f18a2fe)
-
-
-Krok 2️⃣:
-
-UPDATE customers
-SET pseudonym=CONCAT(LEFT(name,2),RIGHT(surname,1));
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/24059b63-d319-43b0-bf0f-490bcfa47541)
-
-16.Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
-
-SELECT DISTINCT movies.title
-FROM movies
-INNER JOIN sale ON movies.movie_id=sale.movie_id;
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/7bb264bd-6bbe-4f75-93e3-f733f1f0a7c9)
-
-17.Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION).
-
-SELECT name FROM actors
-UNION
-SELECT name FROM customers
-ORDER BY name;
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/2fc312af-e2c2-4336-8bd6-b096d93883db)
-
-18.Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
-
-UPDATE movies
-SET price = price +2.5
-WHERE year_of_production > 2000;
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/5ebaa6c2-adc2-4fba-baa4-bdb0496e2967)
-
-19.Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
-
-SELECT a.name, a.surname, m.title
-FROM actors a
-JOIN cast c ON a.actor_id = c.actor_id
-JOIN movies m ON c.movie_id = m.movie_id
-WHERE a.actor_id = 4;
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/486b563b-5fe3-4b6c-9e76-1bf2678b5665)
-
-20.A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.
-
-INSERT INTO customers (customer_id, name, surname, email, pseudonym)
-VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
-
-![image](https://github.com/TesterkaEG/challenge_portfolio_ewa/assets/144365299/5036358e-ecae-48be-aa3c-415fe53ebc17)
+[Krótki kurs podstaw SQL.](https://tiny.pl/cjj35)
 
 ## *Subtask 2*
 Test.
 
-Wynik z testu:
+Wynik z testu: 14/15. 🏆
 
 ## *Subtask 3*
-Tworzymy portfolio. 🏆
+Tworzymy portfolio. 
